@@ -41,7 +41,7 @@
 		24616320CD30FDF2377DFF12 /* Pods_JHLogLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHLogLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8B3C30EC6616250E1CB968 /* Pods-JHLogLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHLogLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHLogLib_Tests/Pods-JHLogLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		528F7FF45598B382BB4D761C /* Pods_JHLogLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHLogLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54A18C27EB155EE25E6A2D0B /* JHLogLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JHLogLib.podspec; path = ../JHLogLib.podspec; sourceTree = "<group>"; };
+		54A18C27EB155EE25E6A2D0B /* JHLogLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JHLogLib.podspec; path = ../JHLogLib.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JHLogLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHLogLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		6B3C9799008F8C5C70A5714B /* Pods-JHLogLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHLogLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHLogLib_Tests/Pods-JHLogLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		90424B7EBE79CD1E5DBE894C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		90424B7EBE79CD1E5DBE894C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AA44E5B212D82142264D7A77 /* Pods-JHLogLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHLogLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHLogLib_Example/Pods-JHLogLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FDB76A850420591C655D62EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FDB76A850420591C655D62EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
