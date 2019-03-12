@@ -7,6 +7,7 @@
 //
 
 #import "JHViewController.h"
+#import "JHLog.h"
 
 @interface JHViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [JHLog log];
 }
 
 - (void)didReceiveMemoryWarning
