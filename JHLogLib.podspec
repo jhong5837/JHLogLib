@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/jhong5837/JHLogLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jhong5837' => 'jianghong2@xiaoniu66.com' }
+  s.author           = { 'jhong5837' => 'jhong5837@gmail.com' }
   s.source           = { :git => 'git@github.com:jhong5837/JHLogLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
